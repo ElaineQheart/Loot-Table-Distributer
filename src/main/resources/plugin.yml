@@ -1,0 +1,9 @@
+name: loot_distributer
+version: '1.0'
+main: me.elaineqheart.loot_distributer.Loot_distributer
+api-version: '1.21'
+commands:
+  loot_distributer:
+    description: lets you bulk modify the loot tables of nearby chests
+    usage: /<command> start
+    permission: op
