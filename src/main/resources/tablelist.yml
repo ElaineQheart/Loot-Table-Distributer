@@ -1,5 +1,5 @@
 chest:
   - chests/draft
 barrel:
-  - example3
-  - example4
+  - chests/example3
+  - chests/example4

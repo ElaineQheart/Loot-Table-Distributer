@@ -29,7 +29,7 @@ public class LootCommand implements CommandExecutor, TabCompleter {
                 break;
             case "range":
                 if(strings.length != 2) {
-                    p.sendMessage("Usage: " + command + " range <int>");
+                    p.sendMessage("Usage: /" + s + " range <int>");
                 } else {
                     int range = 0;
                     try {
@@ -39,6 +39,7 @@ public class LootCommand implements CommandExecutor, TabCompleter {
                         p.sendMessage(strings[1] + " is not a valid number!");
                     }
                     Settings.setRange(p, range);
+                    p.sendMessage("Set range to " + range);
                 }
                 break;
             case "start":
